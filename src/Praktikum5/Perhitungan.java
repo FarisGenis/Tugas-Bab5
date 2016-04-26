@@ -1,14 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Praktikum5;
 
-/**
- *
- * @author Faris
- */
 public class Perhitungan {
-    
+
+    public static void Penjumlahan(int bill1, int bill2) {
+        System.out.println("Hasil       : " + (bill1 + bill2));
+    }
+
+    public static void Pengurangan(int bill1, int bill2) {
+        System.out.println("Hasil       : " + (bill1 - bill2));
+    }
+
+    public void Perkalian(int bill1, int bill2) {
+        System.out.println("Hasil       : " + (bill1 * bill2));
+    }
+
+    public void Pembagian(int bill1, int bill2) {
+        System.out.println("Hasil       : " + (bill1 / bill2));
+    }
+
+    public void Sederhana(int bill1, int bill2) {
+        int a = 1, b = 2;
+        while (b <= bill1) {
+            if (bill1 % b == 0 && bill2 % b == 0) {
+                a = b;
+            }
+            b++;
+        }
+        System.out.println("Hasil       : " + (bill1 / a) + " / " + (bill2 / a));
+    }
 }
