@@ -4,7 +4,7 @@ public class LabKomdas {
 
     String Nama[] = {"JaketA", "JaketB", "JaketC"};
     private final int Harga1[] = {100000, 125000, 175000};
-    private int Harga2[] = {95000, 120000, 160000};
+    private final int Harga2[] = {95000, 120000, 160000};
     private int Harga3[] = new int[3];
     private int Jumlah[] = new int[3];
     private int Total;
