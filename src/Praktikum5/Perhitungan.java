@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Praktikum5;
+
 /**
  *
- * @author irwin deriyan
+ * @author Faris
  */
-public class LatihanBab1 {
-    public static void main(String[] args) {
-        System.out.println("tess");
-        
-        
-    }
+public class Perhitungan {
     
 }
