@@ -7,7 +7,7 @@ public class LatihanBab1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int Pick, a, b;
-        String line = "========================================";
+        String line = "=============================";
         do {
             System.out.println("");
             System.out.println(line);
