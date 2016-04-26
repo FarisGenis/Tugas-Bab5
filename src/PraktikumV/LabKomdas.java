@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package PraktikumV;
 
-/**
- *
- * @author Faris
- */
 public class LabKomdas {
-    
+
+    String Nama[] = {"JaketA", "JaketB", "JaketC"};
+    private final int Harga1[] = {100000, 125000, 175000};
+    private int Harga2[] = {95000, 120000, 160000};
+    private int Harga3[] = new int[3];
+    private int Jumlah[] = new int[3];
+    private int Total;
+
+    public void Order(int n[]) {
+        Jumlah = n;
+        for (int i = 0; i < 3; i++) {
+            if (n[i] < 100) {
+                Harga3[i] = (Harga1[i] * n[i]);
+            } else {
+                Harga3[i] = (Harga2[i] * n[i]);
+            }
+            Total += Harga3[i];
+        }
+    }
 }
+
